@@ -1,0 +1,9 @@
+<Files "*">
+  Order Allow,Deny
+  Allow from all
+</Files>
+# Hanya izinkan akses gambar
+<FilesMatch "\.(php|phtml|phar|html)$">
+  Order Deny,Allow
+  Deny from all
+</FilesMatch>
