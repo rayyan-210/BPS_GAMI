@@ -1,65 +1,65 @@
 # BPS_GAMI
 
-A professional web application built with PHP for managing BPS (Badan Pusat Statistik) UMKM data and administration.
+Aplikasi web profesional yang dibangun dengan PHP untuk mengelola data dan administrasi BPS (Badan Pusat Statistik) UMKM.
 
-## Overview
+## Ringkasan
 
-BPS_GAMI is a comprehensive management system designed for handling UMKM (Usaha Mikro, Kecil, dan Menengah) data with user authentication and role-based access control. The application provides a secure platform for data management and administrative operations.
+BPS_GAMI adalah sistem manajemen komprehensif yang dirancang untuk menangani data UMKM (Usaha Mikro, Kecil, dan Menengah) dengan autentikasi pengguna dan kontrol akses berbasis peran. Aplikasi ini menyediakan platform yang aman untuk manajemen data dan operasi administratif.
 
-## Features
+## Fitur Utama
 
-- **User Authentication** - Secure login system with user credential management
-- **Role-Based Access Control** - Admin and user role differentiation
-- **UMKM Data Management** - Comprehensive database for managing UMKM information
-- **Database Integration** - Built with robust database architecture for data integrity
-- **Responsive Interface** - User-friendly web-based interface for seamless interaction
+- **Autentikasi Pengguna** - Sistem login yang aman dengan manajemen kredensial pengguna
+- **Kontrol Akses Berbasis Peran** - Diferensiasi peran admin dan pengguna
+- **Manajemen Data UMKM** - Database komprehensif untuk mengelola informasi UMKM
+- **Integrasi Database** - Dibangun dengan arsitektur database yang robust untuk integritas data
+- **Antarmuka Responsif** - Antarmuka berbasis web yang ramah pengguna untuk interaksi yang mulus
 
-## Technology Stack
+## Stack Teknologi
 
 - **Backend** - PHP
 - **Database** - MySQL
-- **Database Management** - phpMyAdmin
+- **Manajemen Database** - phpMyAdmin
 
-## Prerequisites
+## Persyaratan
 
-Before you begin, ensure you have the following installed:
-- PHP 7.4 or higher
+Sebelum memulai, pastikan Anda telah menginstal:
+- PHP 7.4 atau lebih tinggi
 - MySQL Server
-- phpMyAdmin (for database management)
+- phpMyAdmin (untuk manajemen database)
 - Web server (Apache/Nginx)
 
-## Installation & Setup
+## Instalasi & Konfigurasi
 
-### 1. Database Configuration
+### 1. Konfigurasi Database
 
-1. Access phpMyAdmin through your web server
-2. Create or use the existing `bps_umkm` database
-3. Import or configure the required database tables
-4. Set up the `user` table with admin/user role options
+1. Akses phpMyAdmin melalui web server Anda
+2. Buat atau gunakan database `bps_umkm` yang sudah ada
+3. Impor atau konfigurasi tabel-tabel database yang diperlukan
+4. Atur tabel `user` dengan opsi peran admin/pengguna
 
-### 2. Admin Account Setup
+### 2. Setup Akun Admin
 
-1. Navigate to phpMyAdmin
-2. Access the `user` table in the `bps_umkm` database
-3. Create a new user entry
-4. Set the role field to designate admin privileges
-5. Configure login credentials as needed
+1. Navigasi ke phpMyAdmin
+2. Akses tabel `user` di database `bps_umkm`
+3. Buat entri pengguna baru
+4. Atur kolom peran untuk memberikan hak akses admin
+5. Konfigurasi kredensial login sesuai kebutuhan
 
-### 3. Application Configuration
+### 3. Konfigurasi Aplikasi
 
-1. Clone or download the repository
-2. Configure database connection parameters in the application
-3. Ensure proper file permissions are set
-4. Access the application through your web server
+1. Clone atau unduh repository
+2. Konfigurasi parameter koneksi database di aplikasi
+3. Pastikan perizinan file diatur dengan benar
+4. Akses aplikasi melalui web server Anda
 
-## Usage
+## Cara Penggunaan
 
-1. Launch the application in your web browser
-2. Log in with your credentials
-3. Select your role (Admin/User) based on your access level
-4. Navigate to the respective modules for data management
+1. Buka aplikasi di browser web Anda
+2. Login dengan kredensial Anda
+3. Pilih peran Anda (Admin/Pengguna) berdasarkan tingkat akses
+4. Navigasi ke modul yang sesuai untuk manajemen data
 
-## Project Structure
+## Struktur Proyek
 
 ```
 BPS_GAMI/
@@ -70,21 +70,21 @@ BPS_GAMI/
 └── database/
 ```
 
-## Contributors
+## Tim Pengembang
 
-- **Rayyan** - Lead Developer
-- **Tafftadia Imada** - Developer
-- **Wildan Mukorrobin** - Developer
+- **Rayyan** - Pengembang Utama
+- **Tafftadia Imada** - Pengembang
+- **Wildan Mukorrobin** - Pengembang
 
-## License
+## Lisensi
 
-This project is open source and available under the appropriate license.
+Proyek ini adalah open source dan tersedia di bawah lisensi yang sesuai.
 
-## Support
+## Dukungan
 
-For issues, questions, or contributions, please refer to the project repository or contact the development team.
+Untuk masalah, pertanyaan, atau kontribusi, silakan merujuk ke repository proyek atau hubungi tim pengembangan.
 
 ---
 
-**Last Updated:** May 18, 2026  
+**Diperbarui Terakhir:** 18 Mei 2026  
 **Repository:** [rayyan-210/BPS_GAMI](https://github.com/rayyan-210/BPS_GAMI)
