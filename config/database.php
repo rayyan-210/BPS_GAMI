@@ -2,8 +2,8 @@
 // Konfigurasi koneksi database MySQL
 $host = 'localhost';
 $user = 'root';
-$pass = '';
-$db   = 'bps_umkm';
+$pass = '123';
+$db   = 'bps_gami';
 
 $conn = new mysqli($host, $user, $pass, $db);
 if ($conn->connect_error) {
